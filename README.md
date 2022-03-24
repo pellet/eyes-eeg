@@ -1,6 +1,6 @@
 # AlgoLYNXathon Team A repo
 
-Details of the hackathon can be found (here)[https://phas3.notion.site/AlgoLYNXathon-Documents-cceb7f5b7acb4e6e9412640075faadde] 
+Details of the hackathon can be found [here](https://phas3.notion.site/AlgoLYNXathon-Documents-cceb7f5b7acb4e6e9412640075faadde)
 
 The repo contain three notebooks
 
