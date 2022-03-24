@@ -17,6 +17,7 @@ The different preproces we used
 - `fized length epochs` to break the continuous signal to number of samples
 
 The following approaches were used to preproces that data
+
 *Approach 1*
 - filter between 1 and 40
 - resample from 500hz to 100 hz
@@ -41,3 +42,16 @@ The following approaches were used to preproces that data
 - remove artifacts based on ICA on epochs
 - epoch 50s and average
 
+**Classification Methods**
+
+*Method 1*
+- only the occipital channels were used in classification [`PO3`, `PO7`, `Oz`, `O1`, `POz`, `PO4`, `PO8`, `O2`]
+- `RandomForestClassifier` was used as the classifier of choice
+
+*Method 2*
+- only the Oz channel was used in classification 
+- `RandomForestClassifier` was used as the classifier of choice
+
+*Method 3*
+- Following 10 channels were used [`PO3`, `PO7`, `Oz`, `O1`, `POz`, `PO4`, `PO8`, `O2`, `P3`, `P4`]
+- `RandomForestClassifier` was used as the classifier of choice
